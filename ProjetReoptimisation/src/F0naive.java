@@ -11,6 +11,7 @@ public class F0naive implements StreamingAlgo{
 		IPstockage = new TreeSet<Integer>();
 		count = 0;
 	}
+	
 // stocke les adresses IP distinctes	
 	public void update(int token){
 		if(IPstockage.add(token))
